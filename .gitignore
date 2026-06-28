@@ -1,0 +1,9 @@
+.idea/
+*.sln.iml
+
+bin/
+obj/
+
+.ut/
+.vs/
+UserSecrets/
