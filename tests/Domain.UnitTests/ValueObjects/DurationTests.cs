@@ -24,7 +24,7 @@ public class DurationTests
     [Fact]
     public void Default_ShouldCreateCorrectDuration()
     {
-        var duration = Duration.Default();
+        var duration = Duration.Classic();
         
         duration.WorkTime.Should().Be(TimeSpan.FromMinutes(25));
         duration.ShortBreakTime.Should().Be(TimeSpan.FromMinutes(5));
@@ -49,7 +49,7 @@ public class DurationTests
         PomodoroStage stage,
         double expectedMinutes)
     {
-        var duration = Duration.Default();
+        var duration = Duration.Classic();
         
         var actualMinutes = duration.GetTotalTimeForStage(stage);
         
@@ -59,7 +59,7 @@ public class DurationTests
     [Fact]
     public void GetTotalTimeForStage_WithUndefinedStage_ShouldThrowArgumentOutOfRangeException()
     {
-        var duration = Duration.Default();
+        var duration = Duration.Classic();
         var invalidStage = (PomodoroStage)(-1);
         
         Action action = () => duration.GetTotalTimeForStage(invalidStage);
