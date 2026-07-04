@@ -4,4 +4,9 @@
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::83F781D4-3D68-4D0B-9387-40D546A8CA0B::net10.0::Domain.UnitTests.ValueObjects.DurationTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a5bceb1b_002D6c43_002D4ad7_002D874f_002D7b7df0bf5dd6/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="DurationTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::83F781D4-3D68-4D0B-9387-40D546A8CA0B::net10.0::Domain.UnitTests.ValueObjects.DurationTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
