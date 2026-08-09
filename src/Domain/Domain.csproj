@@ -4,7 +4,14 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <RootNamespace>Domai</RootNamespace>
+        <RootNamespace>Domain</RootNamespace>
     </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Entities\" />
+      <Folder Include="Events\" />
+      <Folder Include="Exceptions\" />
+      <Folder Include="Extensions\" />
+    </ItemGroup>
 
 </Project>
