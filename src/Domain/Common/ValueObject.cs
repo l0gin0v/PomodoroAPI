@@ -49,7 +49,7 @@ public abstract class ValueObject : IEquatable<ValueObject>, IComparable<ValueOb
         var thisComponents = GetComparisonComponents().ToList();
         var otherComponents = other.GetComparisonComponents().ToList();
         
-        for (var i = 0; i < Math.Min(thisComponents.Count, otherComponents.Count); i++)
+        for (int i = 0; i < Math.Min(thisComponents.Count, otherComponents.Count); i++)
         {
             var comparison = thisComponents[i].CompareTo(otherComponents[i]);
             if (comparison != 0) return comparison;
